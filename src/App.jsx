@@ -29,7 +29,7 @@ const Setting = lazy(() => import("./Pages/Setting.jsx"));
 const AllBlogsPage = lazy(() => import("./Pages/Admin/AllBlogPage.jsx"));
 const Address = lazy(() => import("./Pages/Address.jsx"));
 const ChatApp = lazy(() => import("./components/Chat/ChatApp.jsx"));
-const NewRequestPage = lazy(() => import("./Pages/User/newRequestPage.jsx"));
+const NewRequestPage = lazy(() => import("./Pages/User/NewRequestPage.jsx"));
 const AllServicesUserPage = lazy(() =>
   import("./Pages/User/AllServicsesUSerPage.jsx")
 );
