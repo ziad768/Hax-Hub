@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Philosopher:ital,wght@1,700&family=Red+Hat+Display:wght@300&family=Rubik&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* login and register start style */
+.logo1 {
+  width: 72px;
+  height: 72px;
+  background-color: #40bfff;
+  border-radius: 16px;
+  margin: auto;
+}
+.h41 {
+  color: #223263;
+}
+.h51 {
+  color: #9098b1;
+}
+.inp1 {
+  height: 55px;
+  color: #9098b1;
+  border-radius: 5px;
+  border: 1px solid #9098b1;
+}
+.inp-name {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14px;
+  color: #9098b1;
+}
+::placeholder {
+  color: #9098b1;
+}
+.inp2 {
+  height: 55px;
+  border-radius: 5px;
+  background-color: #40bfff;
+  border: none;
+}
+.h61 {
+  color: #9098b1;
+}
+.h61 a {
+  color: #40bfff;
+  text-decoration: none;
+}
+
+
+/**Style About */
+.infoAbout {
+  font-family: Philosopher;
+}
+
+.imgLeftCorner, .vision {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 350px;
+  box-shadow: 17px 8px 0px #0062FF;
+  ;
+  margin-left: -80px;
+}
+
+.vision {
+  box-shadow: -19px 13px 0px #0062FF;
+}
+
+.pInfo {
+  font-family: Philosopher;
+  font-weight: 400;
+
+  font-size: 20px;
+}
+
+.clientTitle {
+  font-family: Philosopher;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -3.82669997215271px;
+  text-align: center;
+
+}
+
+#partener {
+  font-family: Philosopher;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -3.82669997215271px;
+  text-align: center;
+
+}
+.circlePartener{
+  width:300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.circlePartener1{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/**Style About */
+
+
+/* login and register end style */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Philosopher:ital,wght@1,700&family=Red+Hat+Display:wght@300&family=Rubik&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.logo1 {
+  width: 72px;
+  height: 72px;
+  background-color: #40bfff;
+  border-radius: 16px;
+  margin: auto;
+}
+.h41 {
+  color: #223263;
+}
+.h51 {
+  color: #9098b1;
+}
+.inp1 {
+  height: 55px;
+  color: #9098b1;
+  border-radius: 5px;
+  border: 1px solid #9098b1;
+}
+.inp-name {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14px;
+  color: #9098b1;
+}
+::placeholder {
+  color: #9098b1;
+}
+.inp2 {
+  height: 55px;
+  border-radius: 5px;
+  background-color: #40bfff;
+  border: none;
+}
+.h61 {
+  color: #9098b1;
+}
+.h61 a {
+  color: #40bfff;
+  text-decoration: none;
+}
+
+
+/**Style About */
+.infoAbout {
+  font-family: Philosopher;
+}
+
+.imgLeftCorner, .vision {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 350px;
+  box-shadow: 17px 8px 0px #0062FF;
+  ;
+  margin-left: -80px;
+}
+
+.vision {
+  box-shadow: -19px 13px 0px #0062FF;
+}
+
+.pInfo {
+  font-family: Philosopher;
+  font-weight: 400;
+
+  font-size: 20px;
+}
+
+.clientTitle {
+  font-family: Philosopher;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -3.82669997215271px;
+  text-align: center;
+
+}
+
+#partener {
+  font-family: Philosopher;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -3.82669997215271px;
+  text-align: center;
+
+}
+.circlePartener{
+  width:300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.circlePartener1{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media (min-width : 998px) {
+  .cardMap{
+  transform: translateY(-50%);
+  }
+}

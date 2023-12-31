@@ -1,0 +1,214 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important ;
+}
+
+.nav-item a{
+  text-decoration: none !important ;
+  color: black;
+}
+.nav-item .active{
+  text-decoration: none !important ;
+  color: #0062ff;
+}
+.buttonContact{
+  margin: auto;
+  background-image: url(./images/cta.png);
+  background-size: cover;
+  width: 85%;
+  margin: 30px auto;
+  min-height: 193px;
+  border-radius: 30px;
+}
+section .content{
+  padding: 40px 80px;
+}
+section .info{
+  font-family: 'Philosopher', sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 53.76px;
+}
+ul{
+  list-style: none;
+}
+.footer-content .footer-title{
+  font-size: 72px;
+  font-family: 'Philosopher', sans-serif;
+  margin: auto;
+  width: 296px;
+  color: #ffffff;
+  padding: 0;
+  letter-spacing: -3.83px;
+}
+.line1{
+  width: 80%;
+  border: 1px solid hsl(0, 0%, 100% , 0.5);
+  margin:auto ;
+}
+.line2{
+  width: 80%;
+  border: 1px solid hsl(0, 0%, 100% , 0.5);
+  margin:auto ;
+}
+.footer-content .links{
+  margin: 10px auto;
+}
+footer .links a{
+  color: black;
+  text-decoration:none;
+  font-size: 16px;
+}
+footer .links a:hover{
+  color: #ffffff;
+}
+footer .icons ul{
+  padding: 0;
+  margin: 0;
+  width: 80px;
+  margin: 30px auto;
+}
+header li{
+  list-style: none;
+}
+header{
+  width: 100%;
+  height: 86px; 
+  border-bottom:solid 1px #0062ff ; 
+  background-color: #ffffff;
+}
+header .links a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+header .links a:hover{
+  color: #0062ff;
+}
+header .buttons button{
+  font-family: 'Philosopher', sans-serif;
+  border-radius: 20px;
+  padding: 8px 30px 8px 30px;
+}
+header .buttons .btn1{
+  background-color: #ffffff;
+  color: #0062ff;
+  border: solid 1px #0062ff;
+}
+header .buttons .btn2{
+  background-color: #0062ff;
+  color: #ffffff;
+}
+button::after{
+  font-size: 20px;
+  margin-left: 5px !important;
+  transform: translateY(50%);
+}
+nav .dropdown-menu{
+  min-width: 90px !important;
+  text-align: center;
+}
+#dropdownMenuButton2::after{
+  display: none;
+}
+.main{
+  width: 100%;
+  background: url(./images/ad.jpg);
+  background-size: cover;
+}
+
+.overlay{
+  width: 100%;
+  padding: 40px 40px;
+  height: 100%;
+  color: white;
+  background: #000000b4;
+}
+.numberServices{
+  font-size: 150px;
+  font-weight: 700;
+  color: rgba(0, 98, 255, 0.25);
+  position: absolute;
+  top: -10%;
+  left: 0;
+  z-index: 1;
+}
+
+@media (min-width: 1200px) {
+  .cardServices{
+    width: 30% !important;
+  }
+}
+.conform{
+  border-radius: 15px;
+
+}
+.form{
+  margin-top: -17px;
+  border-radius: 25px;
+}
+.bt{
+  padding:5px ;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(0, 98, 255,1);
+  color: white;
+}
+.dashbo{
+  background-color: rgb(0, 98, 255,1);
+  border-bottom-left-radius:15px ;
+  border-bottom-right-radius:15px  ;
+}
+#bt2{
+  border-radius: 15px;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+footer .active{
+  color: white !important;
+}
+.sidbarAdmin .active{
+  border-bottom: 2px solid ;
+  width: 50%;
+
+
+}
+.divImg{
+  text-align: center;
+}
+.imgRight,.imgleft{
+  border-radius: 25px;
+  margin-top: -50px;
+}
+.Nowrap{
+  flex-wrap: wrap ;
+}
+@media (min-width:767px)
+{.imgRight , .imgleft{
+  width: 100%;
+  height: 250px;
+  border-bottom: 7px solid #0062ff;
+  border-right: 7px solid #0062ff;
+  margin-top: 0;
+}
+.mr{
+  margin-left: -50px;
+
+}
+.Nowrap{
+  flex-wrap: nowrap !important;
+}
+}
+.divImg{
+  z-index: 20000000000000;
+  position: relative;
+}
+.bg{
+  background-color: hsla(217, 100%, 50%, 0.19);
+}
