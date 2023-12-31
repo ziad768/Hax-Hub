@@ -8,7 +8,7 @@ import ChatPage from "./Pages/ChatPage.jsx";
 
 const Footer = lazy(() => import("./components/Footer/Footer"));
 const Header = lazy(() => import("./components/Header/Header"));
-const DetailsBlogs = lazy(() => import("./Pages/Blogs/detailsBlogs"));
+const DetailsBlogs = lazy(() => import("./Pages/Blogs/DetailsBlogs"));
 const HomePage = lazy(() => import("./Pages/Home/HomePage"));
 const AboutPage = lazy(() => import("./Pages/ABout/AboutPage.jsx"));
 const Contact = lazy(() => import("./Pages/Contact.jsx"));
