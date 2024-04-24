@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch } from "react-redux";
-import { deleteBlogAction, getAllBlogsAction } from "../redux/slice/blogSlice";
+import { deleteBlogAction, getAllBlogsAction } from "../Redux/Slice/blogSlice";
 import { toast } from "react-toastify";
 
 const BlogAdmin = ({ blog, onDelete }) => {
