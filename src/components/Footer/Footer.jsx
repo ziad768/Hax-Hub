@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <footer
-      style={{ width: "100%", minHeight: "265px", backgroundColor: "#0062ff" }}
+      style={{ width: "100%", minHeight: "265px", backgroundColor: "#0062ff" ,padding:'30px 0'}}
     >
       <div className="footer-content">
         <div className="footer-title">TAX HUB</div>

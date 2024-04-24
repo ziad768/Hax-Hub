@@ -11,7 +11,7 @@ function CardandImgRight() {
 
   </div>
 </div>
-<div className="col-12  col-md-5 col-xl-4 divImg ">
+<div className="col-12  col-md-5 col-xl-4 divImg d-none d-sm-block ">
 <img src={img} className='imgRight mr' alt=""  />
 </div>
     </div>

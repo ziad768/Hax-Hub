@@ -3,7 +3,7 @@ import img from "../assets/upload.png";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
-import { fetchBlogById, updateBlog } from "../Redux/Slice/blogSlice";
+import { fetchBlogById, updateBlog } from "../redux/slice/blogSlice";
 import { useParams } from "react-router-dom";
 
 function EditBlog() {

@@ -5,7 +5,7 @@ function CardandImgleft() {
   return (
     <div className="container my-5 d-flex align-items-center flex-column-reverse flex-md-row  Nowrap">
     
-<div className="col-12  col-md-5 col-xl-4 divImg ">
+<div className="col-12  col-md-5 col-xl-4 divImg d-none d-sm-block ">
 <img src={img} className='imgleft' alt=""  />
 </div>
     <div className="card border-2 mr border-primary divCard col-12 col-md-8 " style={{borderRadius:'20px',fontFamily:'monospace',padding:'80px 50px'}}>

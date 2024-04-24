@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import BlogAdmin from "./BlogAdmin";
 import { useDispatch, useSelector } from "react-redux";
-import {  deleteBlogAction, getAllBlogsAction } from "../Redux/Slice/blogSlice";
+import {  deleteBlogAction, getAllBlogsAction } from "../redux/slice/blogSlice";
 
 export default function AllBlogs() {
   const [searchQuery, setSearchQuery] = useState("");
