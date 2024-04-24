@@ -1,6 +1,6 @@
 import AllServices from '../../components/AllServices'
 import CompanyPapers from '../../components/CompanyPapers'
-import NewRequest from '../../components/NewRequest'
+import NewRequest from '../../components/newRequest'
 import SidbarUser from '../../components/ٍSidbar/SidbarUser'
 
 function AllServicsesUSerPage() {

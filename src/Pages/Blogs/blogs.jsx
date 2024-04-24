@@ -2,7 +2,7 @@ import Blog from "../../components/Blog";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllBlogsAction } from "../../Redux/Slice/blogSlice";
+import { getAllBlogsAction } from "../../redux/slice/blogSlice";
 import { Link } from "react-router-dom";
 
 function Blogs() {
