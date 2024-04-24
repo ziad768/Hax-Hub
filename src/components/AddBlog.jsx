@@ -3,7 +3,7 @@ import img from "../assets/upload.png";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-import { createBlog } from "../redux/slice/blogSlice";
+import { createBlog } from "../Redux/Slice/blogSlice";
 function AddBlog() {
   const { register, handleSubmit, setValue } = useForm();
   const [image, setImage] = useState(null);
